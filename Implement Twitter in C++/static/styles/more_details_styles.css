@@ -1,0 +1,184 @@
+*,
+*::after,
+*::before {
+    padding: 0;
+    margin: 0;
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Arial";
+    background-color: #f7f7f7;    
+    height: 100vh;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.total_page {
+    display: flex;
+    
+    flex-direction: column;
+    /*align-items: flex-start;*/
+}
+.head {
+    height: 77px;
+    display:flex;
+    align-items: baseline;
+    border-bottom-style: solid;
+    border-color: #c3bdbd;
+    border-bottom-width: 1px;
+}
+.head > div {
+    width: 500px;
+    text-align: center;
+    align-self: center;
+    line-height: 20px;  
+}
+.left_head {
+}
+.middle_head {
+    margin-right: 100px;
+    margin-left: 100px;
+}
+.right_head {
+    display: flex;
+    color: #3897f0;
+}
+.right_head > div {
+    width: 100px;
+    text-align: center;
+    align-self: center;
+}
+.jeek_jeek_logo {
+    width: 50px;
+    height: 50px;
+}
+.search-input {
+    height: 28px;
+    width: 250px;
+    border-radius: 3px;
+    border-color: #c3bdbd;
+    border-width: 1px;
+    border-style: solid;
+}
+.search_logo {
+    width: 15px;
+    height: 15px;
+}
+
+.btn_logout {
+    padding: 0 10px;
+    cursor: pointer;
+    margin: 0px 0px 0px 10px;
+    width: 80px;
+    background-color: #3897f0;
+    border-color: #3897f0;
+    color: #fff;
+
+    border-radius: 3px;
+    border-style: solid;
+    border-width: 1px;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 26px;
+
+    text-align: center;
+}
+
+
+/*.logged_in_user {
+    padding-left: 100px;
+}*/
+
+.the_content {
+    align-self: center;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;
+    width: 600px;
+}
+
+.the_content > div {
+    height: 250px;
+    padding: 10px 10px 5px 10px;
+    text-align: center;
+    justify-content: center;
+    border-radius: 3px;
+    border-color: #c3bdbd;
+    border-width: 1px;
+    border-style: solid;
+    margin: 10px;
+}
+.a_jeek {
+    align-self: center;
+    /*padding-top: 5px 5px;*/
+    display: flex;
+    flex-direction: column;
+    width: 550px;
+}
+.a_jeek > div {
+    height: 50px;
+    text-align: left;
+    /*justify-content: center;*/
+    margin: 5px 10px;
+}
+.jeeker {
+    color: #3897f0;
+    font-size: 18px;
+}
+.text {
+    flex-basis: 140px;
+}
+.options {
+    border-top-color: #c3bdbd;
+    border-top-width: 1px;
+    border-top-style: solid;
+    display: flex;
+    flex-direction: row;
+    padding-top: 10px;
+}
+
+.options > div {
+    width: 50px;
+}
+
+.details {
+    margin-bottom: 0px;
+    margin-top: 0px;
+}
+
+.like_logo {
+    width: 20px;
+    height: 20px;
+/*    margin: 5px;
+*/}
+
+.dislike_logo {
+    width: 20px;
+    height: 20px;
+}
+
+/*.index_like {
+
+}*/
+
+.not_found_error {
+    border: none;
+    background-color: #b1c1cb;
+    width: 150px;
+    height: 50px;
+    align-self: center;
+    padding-top: 15px;
+    margin-top: 30px;
+}
+
+.btn_rejeek {
+    border: none;
+    cursor: pointer;
+
+}
